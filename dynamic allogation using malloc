@@ -1,0 +1,25 @@
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+int main() 
+{
+    int n;
+    cout<<"enter the value of n";
+    cin>>n;
+    int*arr=(int *)malloc(n*sizeof(int));
+    if(arr==NULL)
+    {
+        cout<<"overfloe";
+        return 0;
+    }
+    ciut<<"enter"<<n<<"marks";
+    int sum=0;
+    for(int i=o;i<=0,i++)
+        {
+        cin>>arr[i];
+        sum=sum+arr[i];
+    }
+    cout<,"total"<<sum;
+    free(arr);
+    return 0;
+}
